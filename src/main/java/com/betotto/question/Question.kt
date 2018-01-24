@@ -1,3 +1,9 @@
 package com.betotto.question
 
-data class Question(val id: Int, var question: String = "")
+import java.util.Date
+
+data class Question(
+        val idQuestion: Int = -1,
+        var text: String = "",
+        var correctAnswer: Int? = null,
+        var creationDate: Date = Date())

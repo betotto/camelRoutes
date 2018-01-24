@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.betotto.question.QuestionDao">
+    <resultMap type="com.betotto.question.Question" id="mapperQuestion">
+        <id property="idQuestion" column="ID_QUESTION" javaType="Int" />
+        <result property="text" column="TEXT" javaType="String" />
+        <result property="correctAnswer" column="CORRECT_ANSWER" javaType="Int" />
+        <result property="creationDate" column="CREATION_DATE" javaType="java.util.Date" jdbcType="TIMESTAMP" />
+    </resultMap>
+
+    <select id="getAllQuestions" resultMap="mapperQuestion">
+        select ID_QUESTION, TEXT, CORRECT_ANSWER, CREATION_DATE from QUESTION
+    </select>
+
+    <select id="getQuestionById" parameterType="Question" resultType="Question" >
+        select ID_QUESTION as idQuestion, TEXT as text, CORRECT_ANSWER as correctAnswer, CREATION_DATE as creationDate from QUESTION where ID_QUESTION=#{idQuestion}
+    </select>
+
+    <insert id="addQuestion" parameterType="Question" useGeneratedKeys="true" keyProperty="idQuestion" keyColumn="ID_QUESTION">
+        insert into QUESTION (TEXT, CORRECT_ANSWER, CREATION_DATE) values (#{text}, #{correctAnswer}, #{creationDate,jdbcType=TIMESTAMP,javaType=java.util.Date})
+    </insert>
+</mapper>
