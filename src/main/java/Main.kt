@@ -8,11 +8,10 @@ import org.apache.camel.component.properties.PropertiesComponent
 import java.util.Arrays
 import org.apache.camel.impl.JndiRegistry
 
-
-
 fun main(args: Array<String>) {
     val registry = JndiRegistry()
-    registry.bind("restJacksonProviderList", Arrays.asList<Any>(JacksonJsonProvider()))
+    registry.bind("restJacksonProviderList", Arrays.asList<Any>(JacksonJsonProvider(),
+            InvalidBodyProvider()))
     val context: CamelContext = DefaultCamelContext(registry)
 
     val props = PropertiesComponent()
@@ -20,6 +19,7 @@ fun main(args: Array<String>) {
     context.addComponent("properties", props)
 
     context.addRoutes(CxfrServer())
+    context.addRoutes(StaticServer())
     context.addRoutes(QuestionRoute())
 
     context.start()

@@ -41,10 +41,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.21" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.camel:camel-cxf:2.19.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.camel:camel-mybatis:2.19.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.camel:camel-jackson:2.19.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.camel:camel-undertow:2.19.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.camel:camel-jetty:2.19.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.camel:camel-jetty9:2.19.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.camel:camel-spring:2.19.4" level="project" />
@@ -64,8 +65,8 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.9.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: mysql:mysql-connector-java:5.1.45" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.10" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.21" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.21" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.slf4j:slf4j-api:1.8.0-alpha2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.cxf:cxf-rt-frontend-jaxws:3.1.13" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.cxf:cxf-rt-frontend-simple:3.1.13" level="project" />
@@ -87,6 +88,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-expression:4.3.11.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-core:4.3.11.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.mybatis:mybatis:3.4.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: io.undertow:undertow-core:1.4.20.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.xml.stream:stax-api:1.0-2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.cxf:cxf-rt-bindings-xml:3.1.13" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.cxf:cxf-rt-wsdl:3.1.13" level="project" />
@@ -106,6 +108,9 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: xml-resolver:xml-resolver:1.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.ow2.asm:asm:5.0.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jboss.logging:jboss-logging:3.2.1.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jboss.xnio:xnio-nio:3.3.8.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jboss.xnio:xnio-api:3.3.8.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: wsdl4j:wsdl4j:1.6.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.neethi:neethi:3.1.0" level="project" />
@@ -113,10 +118,11 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.fasterxml.woodstox:woodstox-core:5.0.3" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.ws.xmlschema:xmlschema-core:2.2.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.21" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.camel:camel-cxf:2.19.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.camel:camel-mybatis:2.19.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.camel:camel-jackson:2.19.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.camel:camel-undertow:2.19.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.camel:camel-jetty:2.19.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.camel:camel-jetty9:2.19.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.camel:camel-spring:2.19.4" level="project" />
@@ -136,8 +142,8 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.9.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: mysql:mysql-connector-java:5.1.45" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.10" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.10" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.21" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.21" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.slf4j:slf4j-api:1.8.0-alpha2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.cxf:cxf-rt-frontend-jaxws:3.1.13" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.cxf:cxf-rt-frontend-simple:3.1.13" level="project" />
@@ -159,6 +165,7 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework:spring-expression:4.3.11.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework:spring-core:4.3.11.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.mybatis:mybatis:3.4.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.undertow:undertow-core:1.4.20.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: javax.xml.stream:stax-api:1.0-2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.cxf:cxf-rt-bindings-xml:3.1.13" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.cxf:cxf-rt-wsdl:3.1.13" level="project" />
@@ -178,6 +185,9 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: xml-resolver:xml-resolver:1.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.ow2.asm:asm:5.0.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jboss.logging:jboss-logging:3.2.1.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jboss.xnio:xnio-nio:3.3.8.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jboss.xnio:xnio-api:3.3.8.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: wsdl4j:wsdl4j:1.6.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.neethi:neethi:3.1.0" level="project" />
@@ -185,10 +195,11 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.fasterxml.woodstox:woodstox-core:5.0.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.ws.xmlschema:xmlschema-core:2.2.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.2.21" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.camel:camel-cxf:2.19.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.camel:camel-mybatis:2.19.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.camel:camel-jackson:2.19.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.camel:camel-undertow:2.19.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.camel:camel-jetty:2.19.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.camel:camel-jetty9:2.19.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.camel:camel-spring:2.19.4" level="project" />
@@ -209,8 +220,8 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: mysql:mysql-connector-java:5.1.45" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.10" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.21" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.21" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.slf4j:slf4j-api:1.8.0-alpha2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.cxf:cxf-rt-frontend-jaxws:3.1.13" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.cxf:cxf-rt-frontend-simple:3.1.13" level="project" />
@@ -232,6 +243,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework:spring-expression:4.3.11.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.springframework:spring-core:4.3.11.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.mybatis:mybatis:3.4.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.undertow:undertow-core:1.4.20.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: javax.xml.stream:stax-api:1.0-2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.cxf:cxf-rt-bindings-xml:3.1.13" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.cxf:cxf-rt-wsdl:3.1.13" level="project" />
@@ -252,6 +264,9 @@
     <orderEntry type="library" scope="TEST" name="Gradle: xml-resolver:xml-resolver:1.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.ow2.asm:asm:5.0.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jboss.logging:jboss-logging:3.2.1.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jboss.xnio:xnio-nio:3.3.8.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jboss.xnio:xnio-api:3.3.8.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: wsdl4j:wsdl4j:1.6.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.apache.neethi:neethi:3.1.0" level="project" />
